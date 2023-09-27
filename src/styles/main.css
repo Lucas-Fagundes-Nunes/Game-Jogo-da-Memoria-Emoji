@@ -81,10 +81,11 @@ h2 {
     content: "";
     position: absolute;
     inset: 0;
-    background: #404040 ;
+    background: #fff ;
     transition: 0.25;
     transform: rotateY(0deg);
     backface-visibility: hidden;
+    box-shadow: 7px 8px 6px rgba(0,0,0, .2);
 }
 
 .item.boxOpen {
